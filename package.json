@@ -1,7 +1,7 @@
 {
   "name": "o.set",
-  "version": "1.0.2",
-  "description": "",
+  "version": "1.0.3",
+  "description": "o.set - fast object property setter",
   "main": "oset.js",
   "scripts": {
     "pretest": "./node_modules/.bin/rollup -c -f cjs",
@@ -17,8 +17,7 @@
   },
   "author": "Iskren Slavov <iskren.s@gmail.com>",
   "license": "BSD-2-Clause",
-  "devDependencies": {},
-  "dependencies": {
+  "devDependencies": {
     "buble": "^0.15.2",
     "chai": "^3.5.0",
     "mocha": "^3.2.0",
