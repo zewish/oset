@@ -1,0 +1,27 @@
+{
+  "name": "o.set",
+  "version": "1.0.0",
+  "description": "o.set - fast object property setter",
+  "main": "oset.umd.js",
+  "authors": [
+    "Iskren Slavov <iskren.s@gmail.com>"
+  ],
+  "license": "BSD-2-Clause",
+  "keywords": [
+    "get",
+    "object",
+    "property",
+    "key",
+    "value",
+    "getter",
+    "accessor",
+    "lodash-get",
+    "underscore-get"
+  ],
+  "homepage": "https://github.com/zewish/oset",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components"
+  ]
+}

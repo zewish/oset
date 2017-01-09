@@ -1,0 +1,39 @@
+{
+  "name": "o.set",
+  "version": "1.0.0",
+  "description": "o.set - fast object property setter",
+  "main": "oset.js",
+  "scripts": {
+    "pretest": "./node_modules/.bin/rollup -c -f cjs",
+    "test": "./node_modules/.bin/mocha ./test.js",
+    "prepublish": "./node_modules/.bin/rollup -c -f cjs && ./node_modules/.bin/rollup -c -o oset.umd.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zewish/oset.git"
+  },
+  "bugs": {
+    "url": "https://github.com/zewish/oset/issues"
+  },
+  "author": "Iskren Slavov <iskren.s@gmail.com>",
+  "license": "BSD-2-Clause",
+  "devDependencies": {},
+  "dependencies": {
+    "buble": "^0.15.2",
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0",
+    "rollup": "^0.41.1",
+    "rollup-plugin-buble": "^0.15.0"
+  },
+  "keywords": [
+    "set",
+    "object",
+    "property",
+    "key",
+    "value",
+    "setter",
+    "accessor",
+    "lodash-set",
+    "underscore-set"
+  ]
+}

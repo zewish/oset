@@ -1,0 +1,17 @@
+{
+  "name": "o.set-benchmark",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./index.js",
+    "start": "node ./index.js"
+  },
+  "author": "Iskren Slavov <iskren.s@gmail.com>",
+  "license": "BSD-2-Clause",
+  "dependencies": {
+    "lodash.set": "^4.3.2",
+    "microtime": "^2.1.2"
+  },
+  "private": true
+}
