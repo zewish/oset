@@ -1,7 +1,7 @@
 {
   "name": "o.set",
-  "version": "1.0.3",
-  "description": "o.set - fast object property setter",
+  "version": "1.0.4",
+  "description": "fast { property: 'setter' }",
   "main": "oset.umd.js",
   "authors": [
     "Iskren Slavov <iskren.s@gmail.com>"
