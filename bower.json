@@ -8,15 +8,15 @@
   ],
   "license": "BSD-2-Clause",
   "keywords": [
-    "get",
+    "set",
     "object",
     "property",
     "key",
     "value",
-    "getter",
+    "setter",
     "accessor",
-    "lodash-get",
-    "underscore-get"
+    "lodash-set",
+    "underscore-set"
   ],
   "homepage": "https://github.com/zewish/oset",
   "ignore": [
