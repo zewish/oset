@@ -1,6 +1,6 @@
 {
   "name": "o.set",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "o.set - fast object property setter",
   "main": "oset.umd.js",
   "authors": [
