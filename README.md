@@ -39,7 +39,7 @@ $ npm install --save o.set
 
 #### Install (Bower)
 ```bash
-$ npm install --save o.set
+$ bower install --save o.set
 ```
 
 #### Test
