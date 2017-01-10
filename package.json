@@ -1,8 +1,10 @@
 {
   "name": "o.set",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "fast { property: 'setter' }",
   "main": "oset.js",
+  "module": "src/oset.js",
+  "jsnext:main": "src/oset.js",
   "scripts": {
     "pretest": "./node_modules/.bin/rollup -c -f cjs",
     "test": "./node_modules/.bin/mocha ./test.js",
