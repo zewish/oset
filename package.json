@@ -1,14 +1,14 @@
 {
   "name": "o.set",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "fast { property: 'setter' }",
   "main": "oset.js",
-  "module": "src/oset.js",
-  "jsnext:main": "src/oset.js",
+  "module": "oset.es.js",
+  "jsnext:main": "oset.es.js",
   "scripts": {
-    "pretest": "./node_modules/.bin/rollup -c -f cjs",
-    "test": "./node_modules/.bin/mocha ./test.js",
-    "prepublish": "./node_modules/.bin/rollup -c -f cjs && ./node_modules/.bin/rollup -c -o oset.umd.js"
+    "pretest": "rollup -c -f cjs",
+    "test": "mocha ./test.js",
+    "prepublish": "rollup -c -f cjs && rollup -c -o oset.umd.js && rollup -c -f es -o oset.es.js"
   },
   "repository": {
     "type": "git",
@@ -21,9 +21,9 @@
   "license": "BSD-2-Clause",
   "devDependencies": {
     "buble": "^0.15.2",
-    "chai": "^3.5.0",
-    "mocha": "^3.2.0",
-    "rollup": "^0.41.1",
+    "chai": "^4.1.0",
+    "mocha": "^3.4.2",
+    "rollup": "^0.45.2",
     "rollup-plugin-buble": "^0.15.0"
   },
   "keywords": [
