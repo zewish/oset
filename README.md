@@ -10,17 +10,15 @@ This will never be some kind of "wannabe" lodash killer library. It's just what 
 
 #### Usage
 ```javascript
-'use strict';
+import oset from 'o.set';
 
-let oset = require('o.set');
-
-let obj = {
-    uno: 1
-    , due: {
-        a: ['abracadabra']
-        , b: [ [ [ 'wow' ] ] ]
-    }
-    , tre: 3
+const obj = {
+  uno: 1,
+  due: {
+    a: ['abracadabra'],
+    b: [ [ [ 'wow' ] ] ]
+  },
+  tre: 3
 };
 
 oset(obj, 'due.a.0', 'yay'); // obj.due.a = [ 'yay' ]
@@ -35,11 +33,6 @@ oset(obj, 'uno.na.not.existent', 'define me!'); // obj.uno = { na: { not: { exis
 #### Install (NPM)
 ```bash
 $ npm install --save o.set
-```
-
-#### Install (Bower)
-```bash
-$ bower install --save o.set
 ```
 
 #### Test
